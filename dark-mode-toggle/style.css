@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    padding: 3rem;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+body.dark {
+    background-color: #1f1f1f;
+    color: white;
+
+    
+}
+
+body.dark label {
+    background-image: url(https://cdn.discordapp.com/attachments/907986125791043659/928174500950974474/SUN.png);
+    object-fit: cover;
+    background-position: center center;
+    background-size: 50px 50px;
+}
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+label {
+    background-image: url(https://cdn.discordapp.com/attachments/907986125791043659/928171359937392660/premium-icon-moon-3287904.png);
+    border-radius: 50%;
+    display: inline-block;
+    width : 50px;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    object-fit: cover;
+    background-position: center center;
+    background-size: 50px 50px;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+input {
+    visibility: hidden;    
+}

@@ -1,0 +1,36 @@
+body.dark {
+    background-color:#303942;
+    color : #a3c7de;
+}
+
+body.dark label {
+    background-image: url(https://cdn.discordapp.com/attachments/907986125791043659/928174500950974474/SUN.png);
+    object-fit: cover;
+    background-position: center center;
+    background-size: 40px 40px;
+}
+
+
+.toggle-container {
+    position: fixed;
+    padding: 1rem;
+    top: 10px;
+    left: 0px;
+}
+label {
+    background-image: url(https://cdn.discordapp.com/attachments/907986125791043659/928171359937392660/premium-icon-moon-3287904.png);
+    border-radius: 50%;
+    display: inline-block;
+    width : 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    object-fit: cover;
+    background-position: center center;
+    background-size: 40px 40px;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+input {
+    visibility: hidden;    
+}

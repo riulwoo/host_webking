@@ -1,0 +1,8 @@
+
+.carou {
+    display: flex;
+    width: 700px;
+    margin-right: 120px;
+    transition: transform 0.4s linear;
+    transform: translate(0);
+}

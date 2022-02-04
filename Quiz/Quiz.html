@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="..\index\menu.css" rel="stylesheet">
+        <script text="text/javascript" src="script.js" defer></script>
+        <style>
+            .btn2.active {
+            transform: translateX(-180px);
+            }
+        </style>
+    </head>
+    <body>
+        <Button id="btn" class = "btn2">☰</Button>
+          <nav id="nav" >
+            <ul>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\Quiz\Quiz.html">Quiz</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\TODO\todo.html">TODO</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\carousel\index.html">carousel</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\drawing-app\index.html">drawing-app</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\zoom-effect\index.html">zoom-effect</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\countdown-timer\index.html">Countdown-timer</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\github-profile\index.html">github-profile</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\popup\index.html">popup</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0;" href="..\poop-rain\index.html">snow!</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\background-changer\index.html">party!</a></li>
+                <li class ="ii"><a style="font-size: 1rem; font-family: Poppins, sans-serif; margin: 0; position: fixed; bottom: 15px;" href="..\index\index.html">home</a></li>  
+              </ul>
+          </nav>
+
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+                <ul>
+                    <li class ="ij">
+                        <input
+                            type="radio"
+                            id="a"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="a_text" for="a">Question</label>
+                    </li>
+                    <li class ="ij">
+                        <input
+                            type="radio"
+                            id="b"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="b_text" for="b">Question</label>
+                    </li>
+                    <li class ="ij">
+                        <input
+                            type="radio"
+                            id="c"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="c_text" for="c">Question</label>
+                    </li>
+                    <li class ="ij">
+                        <input
+                            type="radio"
+                            id="d"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="d_text" for="d">Question</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submit" class = "btn1">결정</button>
+            
+    </body>
+
+
+    <script src="..\index\menu.js"></script>
+</html>

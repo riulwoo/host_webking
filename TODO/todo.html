@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>할 일 </title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="..\index\menu.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <style>
+            .btn2.active {
+            transform: translateX(-180px);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>할 일</h1>
+        <form id="form">
+            <input
+                type="text"
+                id="input"
+                class="input"
+                placeholder="당신의 할일을 입력해주세요"
+                autocomplete="off"
+            />
+            <ul class="todos" id="todos"></ul>
+        </form>
+        <small>
+            왼쪽 클릭을 눌러 할일을 끝마치세요! <br />
+            오른쪽 클릭을 눌러 할일을 취소하세요!</small>
+
+            <Button id="btn" class="btn2">☰</Button>
+            <nav id="nav">
+                <ul>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\Quiz\Quiz.html">Quiz</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\TODO\todo.html">TODO</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\carousel\index.html">carousel</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\drawing-app\index.html">drawing-app</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\zoom-effect\index.html">zoom-effect</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\countdown-timer\index.html">Countdown-timer</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\github-profile\index.html">github-profile</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\popup\index.html">popup</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\poop-rain\index.html">snow!</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif;" href="..\background-changer\index.html">party!</a></li>
+                    <li><a style="font-size: 1rem; font-family: Poppins, sans-serif; position: fixed; bottom: 15px;" href="..\index\index.html">home</a></li>  
+                  </ul>
+            </nav>
+
+    </body>
+    <script src="..\index\menu.js"></script>
+</html>
